@@ -1,0 +1,21 @@
+{
+
+    "header":{
+        "titleLogo": "GREEN MAKER LAB",
+        "homePage": "Página inicial",
+        "publications": "Publicações",
+        "team": "Time",
+        "aboutUs": "Sobre nós",
+        "TPQVS": "Tábela periódica da química verde e sustentável"
+
+    },
+        "footer":{
+            "followUs": "Siga-nos",
+            "developed": "Desenvolvido por Jefferson Teodoro - 2024"
+        },
+    "home":{
+        "title": "O que é Quimica Verde?",
+        "description": "A química verde pode ser definida como a utilização de técnicas e metodologias químicas que reduzem ou eliminam o uso de solventes e reagentes ou a geração de produtos e subprodutos tóxicos, prejudiciais à saúde humana ou ao meio ambiente. Este conceito não é novo em aplicações industriais, especialmente em países com rigoroso controle de emissões poluentes. Ao longo dos anos, os princípios da química verde foram introduzidos em atividades acadêmicas, de ensino e de pesquisa."
+    }
+
+}
