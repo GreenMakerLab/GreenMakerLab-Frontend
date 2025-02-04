@@ -1,5 +1,5 @@
 
-const API_URL = 'https://greenmakerlab-backend.onrender.com';
+const API_URL = 'https://greenmakerlab-backend.onrender.com/api';
 
 // Função para obter o cabeçalho de autenticação
 const getAuthHeader = () => {
