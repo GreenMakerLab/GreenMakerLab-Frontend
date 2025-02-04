@@ -1,5 +1,5 @@
 
-const API_URL = 'https://greenmakerlab-backend.onrender.com/api';
+const API_URL = import.meta.env.VITE_API_URL;
 
 // Função para obter o cabeçalho de autenticação
 const getAuthHeader = () => {
