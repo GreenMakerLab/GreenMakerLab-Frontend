@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { createArticles,deleteArticle, getArticles  } from "../api"; 
+import { createArticles,deleteArticle, getArticles} from "../api"; 
 import { useAuth } from "../context/AuthContext";
+import {Navigate} from 'react-router-dom';
 
 function AdminPanel() {
     const [title, setTitle] = useState("");
@@ -50,7 +51,8 @@ function AdminPanel() {
     }, [isAuthenticated]);
 
     if (!isAuthenticated) {
-        return <p>Você não está autorizado a acessar esta página.</p>;
+        alert("Você não está autorizado a acessar esta página.")
+        return <Navigate to='/login' replace />;
     }
    
     //função para deletar os artigos
