@@ -33,7 +33,7 @@ function Header() {
   return (
     <>
       <header
-        className={`bg-green-800 text-white p-6 flex items-center shadow-md transition-all duration-500 ease-in-out fixed top-0 left-0 w-full z-50 ${
+        className={`bg-green-800 text-white flex items-center shadow-md transition-all duration-500 ease-in-out fixed top-0 left-0 w-full z-50  ${
           isScrolled ? 'h-14' : 'h-16'
         }`}
       >
@@ -46,7 +46,7 @@ function Header() {
               {t("header.titleLogo")}
             </h1>
           )}
-          <nav className="flex items-center gap-5 xl:text-lg xs:text-sm ">
+          <nav className= {`${isMobileView ? "flex items-center gap-5 xl:text-lg xs:text-sm": "flex items-center gap-3 xl:text-lg xs:text-sm" }  `}>
             <Link
               to="/"
               className="topics text-white font-bold transition-transform duration-300 ease-in-out hover:scale-110 hover:underline"
@@ -75,7 +75,7 @@ function Header() {
               to="/TPQVS"
               className="topics text-white font-bold transition-transform duration-300 ease-in-out hover:scale-105 hover:underline"
             >
-              {isMobileView ? "PTSGC" : t("header.TPQVS")}
+              {isMobileView ? t("header.sigla") : t("header.TPQVS")}
             </Link>
           </nav>
           {i18n.language === "pt"? 

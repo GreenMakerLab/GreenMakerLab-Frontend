@@ -5,6 +5,7 @@ import { getArticles } from "../api";
 function PublicationsList() {
     const [articles, setArticles] = useState([])
     const [searchTerm, setSearchTerm] = useState("")
+    const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768)
 
     useEffect(() => {
         const fetchArticles = async () => {
@@ -23,6 +24,17 @@ function PublicationsList() {
         }
         fetchArticles()
     }, [])
+
+    useEffect(() => {
+        const handleResize = () => {
+          setIsMobileView(window.innerWidth < 768);
+        };
+        window.addEventListener('resize', handleResize);
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
     const toggleShowMore = (id) => {
         setArticles(articles.map(article => 
             article.id === id 
@@ -38,13 +50,13 @@ function PublicationsList() {
     return (
         <>
             <div className="search mb-8"> 
-                <svg  className="inline-flex items-center size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <svg  className="inline-flex items-center size-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >
                     <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
-                <input type="text" id="search-bar" placeholder="Pesquisa..."  
+                <input  type="text" id="search-bar" placeholder="Pesquisa..."  
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="ml-2 p-2 border rounded-md shadow-sm w-full max-w-md"/> 
+                className={` ${ isMobileView  ? 'min-w-28' : 'ml-2 p-2 border rounded-md shadow-sm w-full max-w-md' }  `}/> 
             </div>
             {searchTerm === "" && (
                 <h3 className="text-xl font-normal mb-4">ARTIGOS PUBLICADOS</h3>

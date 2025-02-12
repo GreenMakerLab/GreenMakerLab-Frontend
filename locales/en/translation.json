@@ -1,11 +1,12 @@
 {
     "header": {
         "titleLogo": "GREEN MAKER LAB",
-        "homePage": "Home Page",
+        "homePage": "Home",
         "publications": "Publications",
         "team": "Team",
         "aboutUs": "About Us",
-        "TPQVS": "Periodic Table of Green and Sustainable Chemistry"
+        "TPQVS": "Periodic Table of Green and Sustainable Chemistry",
+        "sigla": "PTSGC"
     },
         "footer":{
             "followUs": "Follow us",
@@ -16,7 +17,7 @@
         "description": "Green chemistry can be defined as the use of chemical techniques and methodologies that reduce or eliminate the use of solvents and reagents or the generation of toxic products and by-products, harmful to human health or the environment. This concept is not new in industrial applications, especially in countries with strict control of pollutant emissions. Over the years, the principles of green chemistry have been introduced into academic, teaching and research activities."
     },
     "publications":{
-        "title-page": "publications"
+        "title": "Publications"
     }
     
 }

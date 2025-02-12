@@ -15,7 +15,7 @@ function TablePeriodic() {
       ) : ( 
         <div className="flex  justify-center mx-auto min-h-screen bg-Periodic">
           <div className="w-full">
-            <div className="flex flex-row justify-evenly font-bold xl:gap-40 xs:gap-10 text-white text-center ">
+            <div className="flex flex-row justify-evenly font-bold xl:gap-40 xs:gap-7 text-white text-center ">
               <Link to="/Humanitarian" className="w-1/4 mb-5  xs:text-[10px] xl:text-lg  transition-transform duration-600 ease-in-out hover:scale-110 ">
                 <h3>Elementos <br /> Humanitários</h3>
               </Link>
@@ -121,7 +121,7 @@ function TablePeriodic() {
               </Link>
             </div>
 
-            <div className="flex flex-wrap justify-center mb-10 overflow-hidden ">
+            <div className="flex flex-wrap justify-center mt-16 overflow-hidden ">
               {renderColumn(elements, 0, 7, false, 0, handleElementClick, setSelectedElement)}
               {renderColumn(elements, 7, 13, true, 1, handleElementClick, setSelectedElement)}
               {renderColumn(elements, 13, 17, true, 3, handleElementClick, setSelectedElement)}
