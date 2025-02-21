@@ -4,9 +4,9 @@
         "homePage": "Home",
         "publications": "Publications",
         "team": "Team",
-        "aboutUs": "About Us",
+        "aboutUs": "About",
         "TPQVS": "Periodic Table of Green and Sustainable Chemistry",
-        "sigla": "PTSGC"
+        "sigla": "PT-GSC"
     },
         "footer":{
             "followUs": "Follow us",
@@ -14,10 +14,124 @@
         },
     "home": {
         "title": "What is Green Chemistry?",
-        "description": "Green chemistry can be defined as the use of chemical techniques and methodologies that reduce or eliminate the use of solvents and reagents or the generation of toxic products and by-products, harmful to human health or the environment. This concept is not new in industrial applications, especially in countries with strict control of pollutant emissions. Over the years, the principles of green chemistry have been introduced into academic, teaching and research activities."
+        "description": "Green Chemistry can be defined as the design of chemical products and processes that reduce or eliminate the use and generation of hazardous substances. (Anastas & Warner. Green Chemistry: Theory and Practice, 1998)."
     },
     "publications":{
-        "title": "Publications"
-    }
+        "title": "Publications",
+        "Abstract": "Abstract:",
+        "Search": "Search...",
+        "ForMore": "For more"
+    },
+    "Carlos": {
+        "post": "Leader",
+        "description": "PhD and MS in Analytical Chemistry; BSc in Chemistry with experience in teaching chemistry and mass spectrometry. Previously served as an exchange student at the esteemed Segura Laboratory (Canada), focusing on applying mass spectrometry techniques. Presently engaged in research dedicated to the development of friendly and systematic tools for incorporation of the Green Chemistry into education. Recognized with awards in 4 exhibition presentations for effectively teaching Green Chemistry to high school students in Brazil. A proactive and committed researcher, continuously seeking opportunities to foster a more sustainable future."
+    },
+    "Afonso": {
+        "post": "Co-Leader",
+        "description": "He holds a Bachelor's degree in Computer Science from the State University of Paraíba - UEPB (2018) and a Master's degree in Information Technology from the Federal Institute of Paraíba - IFPB (2024). He is currently a professor at the IFPB, specializing in the fields of Computer Science, with a focus on Software Development, Digital Games, and Computer Science Education."
+    },
+    "Member": {
+        "post": "member",
+        "Daiane": "She is an undergraduate student in the Chemistry program at the IFPB.",
+        "Denilson": "He is a student in the Technical Program in Informatics at the IFPB.",
+        "Jefferson": "He holds a technical qualification in Informatics from the IFPB. He has completed online courses in programming and has experience with personal projects. He has participated in extension and research projects, as well as in academic events organized by the campus, where he received recognition through awards.",
+        "Jaelson": "He is an undergraduate student in Chemistry at the IFPB. He holds a degree in Business Administration from the Federal University of Campina Grande - UFCG.",
+        "Membros": "He is an undergraduate student in the Chemistry program at the IFPB."
+    },
     
+    "WhoWeAre":{
+        "title": "Who we are:",
+        "informations": "The Green Maker Lab is fully integrated in three dimensions: research, teaching and outreach. We are unique academic community across multiple disciplines — our staff are drawn from the fields of chemistry and informatics.",
+        "Address": "Address:",
+        "ZIP": "ZIP",
+        "city": "Sousa, Paraiba, Brazil",
+        "Street": "Presidente Tancredo Neves Street, Jardim Sorrilândia",
+        "Contacts": "Contacts:",
+        "Phone": "Phone: +55 83 3521-1224",
+        "Email": "Email",
+        "Location": "Location:"
+    },
+    "Humanitarian":{
+        "Humanitarian": "Humanitarian", 
+        "Elements": "Elements",
+        "discretion": "The following elements of Green and Sustainable Chemistry emphasize core humanitarian aims and principles. Since chemistry has existed as a discipline, it has played a central role in meeting fundamental human needs. As we continue to press against the limits of natural systems, it will remain a challenge to ensure basic needs such as food, water, security, and shelter for future generations. Green and Sustainable Chemistry should also strive to ensure that risks and benefits are equally shared among populations(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "GreenChemistry":{
+        "name": "Green Chemistry and Green Engineering Elements",
+        "discretion": "In order to address the humanitarian goals that are inextricably linked to preserving our naturalworld, invention and innovation are essential. While efficiency will be necessary, it will be farfrom sufficient. Efficiency will help you do the thing you are doing better; it will not help you doa better thing. Being more efficient in our use of unsustainable resources, products, processes,and systems is not going to fundamentally alter the unsustainable trajectory we are on. Doingsomething that is unsustainable more efficiently does not make it sustainable.The design, invention, and innovation that is required is embedded in the Principles of GreenChemistry and Green Engineering. The scientific and technological breakthroughs using theseprinciples are meant to change the nature and character of the material basis of our society andour economy – including the materials used to generate, store, and transport our energy – tomake it healthful rather than toxic, renewable rather than depleting, and restorative rather thandegrading. The manifestation of these principles are the discoveries that go from the laboratoryto making a difference in the world(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "ConditionsElements":{
+        "name": "Enabling Systems Conditions Elements",
+        "discretion":"Certainly, chemistry must not simply be a puzzle to be solved. Certainly, it’s not simply anacademic curiosity. It always has had the thread of purpose and impact to it. And because of theunderstanding that when we introduce new things into the universe that the universe has neverseen, we need to anticipate the consequences. All of green chemistry and green engineeringhas been focused on those parts of the endeavor. But in order to make that endeavor real, inorder to make those discoveries, those insights, those inventions, real, discoveries need to gobeyond the realm of science or technology.The science and the technology may be essential. Without the science, advancement may notbe possible. But even with the discoveries, the inventions, and the innovations, advancementis not going to happen alone with only science and technology. We recognize its that chemicalmolecular transformations depend on different conditions: heat, pressure, light, stirring, mixing,whatever it is. We need to think even more broadly about the system conditions that arenecessary in order to bring about the positive impact at societal scale, and what is the urgencythat is going to empower a sustainable transition, a transition to a sustainable world(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "NobleElements": {
+        "name": "Noble Elements"
+    },
+    "elements": {
+        "back": "Back"
+    },
+    "PreventWaste": {
+        "title": "Prevent Waste",
+        "discretion": "Regardless of its nature, waste consumes resources, time, effort, and money both when it is created and then when it is handled and managed at end of life, with hazardous waste requiring even greater investments for monitoring and control. Creating, handling, storing, and disposing of waste is necessarily an expense and does not add value in terms of innovation or performance. In processes of production, therefore, waste is always undesirable in any form. Ideally, molecules, products, processes and systems would be designed to not create waste. We should aim to eliminate even the concept of waste by ensuring that all outputs are feedstocks elsewhere, mimicking natural systems. Whether the waste is material, energy, space, time, or the derivative of all of these, money, there are design strategies that can and are being implemented in Green Chemistry and Engineering to address the issue at the most fundamental level: prevention(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "AtomEconomy": {
+        "title": "Atom Economy",
+        "discretion": "The modern miracle of chemical enterprise is the ability to transform the materials that occur naturally in the world into new materials with new properties and performance that would not otherwise exist. History has shown there are thoughtful and wise ways to engage in molecular transformation and there are methods that are profoundly toxic, wasteful, and depleting. The new emerging synthetic methods that have been demonstrated in the field of green chemistry come from thoughtful lifecycle design and often use Nature and biological systems as an inspiration, mentor, and guide. Through this type of thoughtful design, we move from a narrow definition of mere efficiency to one of holistic productivity(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "LessHazardousSynthesis": {
+        "title": "Less Hazardous Synthesis",
+        "discretion": "While efficiency has historically served as a proxy for sustainable practices in the chemical enterprise, it is imperative that the goal of reducing the quantity of material and energy consumed is closely coupled with considerations related to the nature of that material and energy. Using less may not have the beneficial effects of reducing the overall hazard of the synthetic process depending on the nature of the feedstocks, reagents, and auxiliary chemicals. It is imperative that these inputs and outputs, in addition to the intended product, are as inherently benign as possible. Further, the conditions under which synthetic processes are carried out should be considered when pursuing the goal of a more sustainable chemical enterprise. This offers benefits from environmental and human health perspectives in addition to a reduction in vulnerability to chemical accidents and sabotage(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "MolecularDesign": {
+        "title": "Molecular Design",
+        "discretion": "The basis of our society and economy is synthetic chemicals and materials. While there have been significant advances in toxicology associated with identifying, and in some instances predicting, commercial chemicals that are likely to cause harm to human and ecosystem health, the gains in informing the a priori design of chemicals with reduced hazard to humans and the environment have been elusive. To realize the goal of designing chemicals that are safe and functionally relevant, there is a need to create an interdisciplinary body of knowledge at the nexus of computational chemistry, mechanistic toxicology, and big data analytics among others. It is only when we change the inherent nature of the chemicals and materials that are foundational to quality of life that we can truly advance toward a sustainable future that is no longer reliant on costly regulatory and technological controls of circumstances in which hazardous chemicals can be used and managed(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "Solvents/AuxiliaryChemicals": {
+        "title": "Solvents/Auxiliary Chemicals",
+        "discretion": "The cost, environmental impact, and safety of a chemical processes are often driven by the solvents and other auxiliary chemicals. The amount of solvent used often exceeds raw materials, reagents, and products, particularly in the case of separation and purification processes. Once again, while quantity of these chemicals is an important consideration from a perspective of material and energy efficiency, it is the nature of our historic solvents that has posed the greatest challenge to the environment and human health. Conventional solvents have generally been volatile, increasing likely exposures; hydrophobic, serving as long-term sources of concern in environmental systems; and toxic to ecosystems and humans, particularly notable in terms of worker exposure. Just as we aspire to design safer chemical products, the same effort and attention should be brought to bear on the design of safer solvents or solvent-free processes through both improving the inherent nature of these compounds as well as minimizing their exposure potentials(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "Energy": {
+        "title": "Energy",
+        "discretion": "The chemical sector consumes approximately 20% of total industrial energy consumption in the U.S., and contributes in similar proportions to U.S. greenhouse gas emissions. Given the reliance on fossil fuel resources and the associated greenhouse gas emissions, there is a clear indication that, at a minimum, the chemical enterprise should strive to be as energy efficient as possible, normalizing to chemical function rather than mass in the assessment. Gain in efficiency can be realized by considering both the quantity and quality of energy inputs as well as waste energy utilization. Of course, the chemical sector has a significant role to play in changing the nature of our energy feedstocks toward ones that are renewable, and developing materials that can enhance energy generation, storage, and transmission to enable the use of these renewable energy sources(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "RenewableFeedstocks": {
+        "title": "Renewable Feedstocks",
+        "discretion": "Fossil fuel is the basis of the chemical, material, and energy foundation of  the global economy. Fossil fuel feedstocks are used to generate electricity, to produce transportation fuels, and to produce a wide range of consumer goods, such as plastics, healthcare and drug products, and agrichemicals. These reserves are finite and pose additional challenges related to geopolitics and physical accessibility. Given this context, there have been emerging and important efforts to increase the use of bio-based feedstocks for energy, chemicals, and materials production. Using renewable feedstocks from agricultural, forestry and aquatic resources, particularly residue and waste streams from processing these materials, will be essential to changing the material and energy basis of our economy and society. However, this must be implemented in a context of competition with food, land and water use, as well as benign and efficient downstream processing for recovery of the full value of the feedstock(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "Catalysis": {
+        "title": "Catalysis",
+        "discretion": "There are few areas of chemistry that exemplify sustainability better than catalysis. Catalysis allows for increasing the rate of a transformation, increased efficiency, use of less feedstock, enhanced product quality, lower waste, and lower emissions while at the same time increasing the profitability of a process or product. Virtually every major petrochemical, specialty chemical, or pharmaceutical company would not be economically viable without the use of catalysis. The blend of environmental benefit and economic returns via catalysis makes it among the most obvious and powerful tools to advance sustainability through chemistry(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "Degradation": {
+        "title": "Degradation",
+        "discretion": "Persistent substances may remain in their natural and man-made environments for an indefinite time. These compounds may accumulate to reach levels that are harmful to health, environment, and natural resources. Such contamination may be poorly reversible or even irreversible, and could render natural resources such as soil and water unusable far into the future. As such, there is a need to design chemicals and materials, particularly those that are intentionally or unintentionally distributed in the environment, that are stable during their useful life, and then degrade once they are no longer functionally necessary. Designing for degradation is necessary but not sufficient to realize the goals of sustainable chemistry; the subsequent degradation products should, themselves, be benign to human health and the environment(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "MeasurementandAwareness": {
+        "title": "Measurement and Awareness",
+        "discretion": "To know whether an action or invention is positive or negative for the world, there needs to be some kind of feedback from the system. In the absence of this feedback, there is little more than insufficient guesses and suppositions. However, the way that we choose to measure the performance and impact of our products, processes, and systems will often have a profound impact on the understanding that we take away from these measurements. (Even the compass is only two-dimensional.) If we are operating in multidimensional systems like those involved with sustainability, we will need measurement systems that are as multi-dimensional if we wish to gain insight from them. Traditional, limited measurements such as efficiency measures will be insufficient for this complex system. Additionally, our measurement systems have often been retrospective tools that would give us reports on what happened in the past, sometimes with long enough lag times that the information itself is irrelevant. We now have tools and computational abilities that can provide real-time insights and awareness that allow for relevant action(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "ConceptualFrameworks": {
+        "title": "Conceptual Frameworks",
+        "discretion": "Conceptual frameworks provide a basis for considering the role of the chemical enterprise in advancing sustainability and the associated complexities. Such frameworks provide a means to understand the relevant concepts as well as their relationships to one another. Frameworks of this nature help to inform the overarching design of the role of chemicals and chemistry in contributing to the goals of a sustainable future(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "EconomicsandMarketForces": {
+        "title": "Economics and Market Forces",
+        "discretion": "Current global economic systems and market forces tend to drive perverse incentives that have resulted in the design and evolution of our existing chemical infrastructure. These economic and market systems are critical and will either catalyze or retard the implementation of our science and our technology. It is important to recognize that in addition to traditional approaches of cost benefit analysis, full cost accounting, risk analysis, or traditional metrics, we also are going to need to understand factors including where investment models are made, what kind of business models and business frameworks will be either speeding up the adoption of Green Chemistry and Green Engineering or rejecting it no matter how transformative it may be, and how do we integrate these economic and market forces in order to accelerate and have our technologies adopted. These powerful drivers can be harnessed to encourage behavior and decision-making that is aligned with the goals of a sustainable future(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "Metrics": {
+        "title": "Metrics",
+        "discretion": "For metrics to be useful in sustainability, they must have attributes that reflect sustainability itself. They must be both quantitative and qualitative. Looking at the historical metrics, and the way that professions often “worship at the altar” of efficiency metrics, it often seems that society has outsourced our decision making to quantifiable reductionist metrics. When thinking about achieving sustainability goals, we need to far exceed those simplistic metrics, and couple them with a more qualitative, and often, uncomfortable new generation of metrics. These metrics will move beyond mere quantities and instead provide insights into the character and inherent nature of our energy sources, of our stored energy storage systems, of our materials, and our basic chemicals. Sustainable metrics must be applicable and relevant across time and space, systems-based, and able to combine both reductionism and integrative systems thinking(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "PoliciesandRegulations": {
+        "title": "Policies and Regulations",
+        "discretion": "The landscape of technologies in the chemical enterprise is not merely shaped by scientific and engineering solutions alone but rather in combination with the environment of regulation, policies, and laws that construct the social context in which they operate. Policies and regulations can accelerate or retard sustainability solutions and they can protect or help displace entrenched unsustainable technologies. The development of regulations and policy that will empower and enable green chemistry and green engineering to succeed in society will be necessary to remove the obstacles and inertia that keep the status quo in place(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "Tools": {
+        "title": "Tools",
+        "discretion": "Increasing the development of tools to enable Green Chemistry and Green Engineering has expedited the adoption of more sustainable choices in the selection and innovation of products and processes. These resources allow chemists, engineers, and other professionals to pursue the incorporation of green chemistry into a wider range of products and processes with greater confidence in their decision-making and more credibility in building the business case for implementing these innovations(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    },
+    "NobleGoals": {
+        "title": "Noble Goals",
+        "discretion": "Increasing the development of tools to enable Green Chemistry and Green Engineering has expedited the adoption of more sustainable choices in the selection and innovation of products and processes. These resources allow chemists, engineers, and other professionals to pursue the incorporation of green chemistry into a wider range of products and processes with greater confidence in their decision-making and more credibility in building the business case for implementing these innovations(Anastas & Zimmerman. The Periodic Table of the Elements of Green and Sustainable Chemistry. 2019)."
+    }  
 }

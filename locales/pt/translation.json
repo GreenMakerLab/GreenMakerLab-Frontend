@@ -4,21 +4,138 @@
         "titleLogo": "GREEN MAKER LAB",
         "homePage": "Home",
         "publications": "Publicações",
-        "team": "Time",
+        "team": "Equipe",
         "aboutUs": "Sobre nós",
-        "TPQVS": "Tábela periódica da química verde e sustentável",
+        "TPQVS": "Tabela Periódica da Química Verde e Sustentável",
         "sigla": "TPQVS"
     },
-        "footer":{
+    "footer":{
             "followUs": "Siga-nos",
             "developed": "Desenvolvido por Jefferson Teodoro - 2024"
-        },
+    },
     "home":{
         "title": "O que é Quimica Verde?",
-        "description": "A química verde pode ser definida como a utilização de técnicas e metodologias químicas que reduzem ou eliminam o uso de solventes e reagentes ou a geração de produtos e subprodutos tóxicos, prejudiciais à saúde humana ou ao meio ambiente. Este conceito não é novo em aplicações industriais, especialmente em países com rigoroso controle de emissões poluentes. Ao longo dos anos, os princípios da química verde foram introduzidos em atividades acadêmicas, de ensino e de pesquisa."
+        "description": "Química Verde pode ser definida como o design de produtos e processos químicos que reduzem ou eliminam o uso e a geração de substâncias perigosas. (Anastas & Warner. Química Verde: Teoria e Prática, 1998)."
     },
     "publications":{
-        "title": "Publicações"
-    }
+        "title": "Publicações",
+        "Abstract": "Resumo:",
+        "Search": "Pesquisar...",
+        "ForMore": "Saiba mais"
+    },
+    "Carlos": {
+        "post": "Líder",
+        "description": "Exerce o cargo de professor efetivo de química do Ensino Básico, Técnico e Tecnológico (EBTT) no Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (IFPB) - Campus Sousa, como servidor público federal, desde janeiro de 2021. Doutor em Ciências pela Universidade Estadual de Campinas (UNICAMP), mestre e licenciado em Química. Tem experiência na área de Química, com ênfase em Química Analítica, atuando principalmente nos seguintes temas: experimentação e MALDI-Q TOF MS. Tem experiência de estágio no Departamento de Química Analítica e Ambiental da Universidade de Sherbrooke, Canadá (2015), onde desenvolveu projetos nessa área, pelo Programa Ciências sem Fronteiras (2014-2015). Tem atuado no Ensino de Química Verde e por seus trabalhos nesse tema foi premiado sete vezes no país e exterior (Chile e Itália)."
+    },
+    "Afonso": {
+        "post": "Co-líder",
+        "description": "Possui graduação em Computação pela Universidade Estadual da Paraíba (2018) e mestrado em Tecnologia da Informação pelo Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (2024). Atualmente é professor do Instituto Federal da Paraíba - IFPB atuando na área de Informática, com ênfase em Desenvolvimento de Software, Jogos Digitais e Educação em Computação."
+    },
+    "Member": {
+        "post": "membro",
+        "Daiane": "Possui ensino-medio-segundo-graupela José de Paiva Gadelha(2018).",
+        "Denilson": "Possui ensino-fundamental-primeiro-graupela E.M.E.I.E.F Maria Vieira de Sousa(2022).",
+        "Jefferson": "Foi Jovem Aprendiz no Complexo Hospitalar Santa Terezinha e atualmente é estudante do 3º ano do curso técnico em Informática integrado ao Ensino Médio no IFPB - Campus Sousa. Possui formações em cursos online na área de programação e experiência com projetos pessoais. Participa ou participou de projetos de extensão e pesquisa, além de ter participado de eventos acadêmicos oferecidos pelo campus, onde foi reconhecido com premiações.",
+        "Jaelson": "Graduando em Química pelo Instituto Federal de Educação, Ciências e Tecnologia da Paraíba - IFPB, Campus Sousa-PBGraduado em Administração pela Universidade Federal de Campina Grande - UFCG, campus Sousa-PB.",
+        "Membros": "Graduando em Licenciatura em Química pelo Instituto Federal de Educação ciência e tecnologia Paraíba-IFPB."
+    },
+    "WhoWeAre":{
+        "title": "Sobre nós:",
+        "informations": "O Green Maker Lab - Grupo de Pesquisa e Inovação em Química Verde é totalmente integrado em três dimensões: pesquisa, ensino e extensão. Somos uma equipe única, formada por profissionais das áreas de química e informática.",
+        "Address": "Endereço:",
+        "ZIP": "CEP",
+        "city": "Sousa - PB",
+        "Street": "Rua Presidente Tancredo Neves, s/n Jardim Sorrilândia",
+        "Contacts":"Contatos:",
+        "Phone": "Celular: (83) 3521-1224",
+        "Email": "E-mail",
+        "Location": "Localização:"
+    },
+    "Humanitarian":{
+        "Humanitarian": "Elementos",
+        "Elements": "Humanitários",
+        "discretion": "O bloco denominado de elementos humanitários apresenta 13 elementos figurativos em duas linhas verticais, as quais representam, excepcionalmente, um único grupo homônimo ao bloco. Em outras palavras, as duas colunas à esquerda da Tabela Periódica da Química Verde e Sustentável (TPQVS) correspondem ao grupo dos elementos humanitários (Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)"
+    },
+    "GreenChemistry":{
+        "name": "Elementos da Química Verde e da Engenharia Verde",
+        "discretion": "O bloco dos elementos da química verde e da engenharia verde é o maior da TPQVS com exatamente 40 elementos figurativos, que foram divididos em 10 grupos, a saber: prevenção de resíduo, economia atômica, síntese menos perigosa, design molecular, solventes/produtos químicos auxiliares, energia, matérias-primas renováveis, catálise, degradação, e medição e conscientização. A priori, o nome escolhido para o presente bloco pode soar inapropriado, porque pressupõe-se que todos os 90 elementos dessa tabela pertencem à Química Verde e à Engenharia Verde, não se fazendo necessária essa nomenclatura discriminativa para o bloco. Contudo, Anastas e Zimmerman (2019) consideraram os 40 elementos figurativos aqui agrupados como a coleção de intercalação científica e tecnológica dos 12 princípios da Química Verde e dos 12 princípios da Engenharia Verde (Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "ConditionsElements":{
+        "name": " Elementos de habilitação das condições do sistema",
+        "discretion":"O bloco habilitação das condições do sistema apresenta 30 elementos figurativos, divididos em 5 grupos: estruturas conceituais, economia e forças de mercado, métricas, políticas e regulamentos, e ferramentas Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "NobleElements": {
+        "name": "Elementos nobres"
+    },
+    "elements": {
+        "back": "Voltar à Tabela"
+    },
+    "PreventWaste": {
+        "title": "Prevenção",
+        "discretion": "O grupo prevenção de resíduo, conexo exatamente com o primeiro princípio da Química Verde, foram cunhados os seguintes elementos figurativos: aproveitamento e valorização de resíduos (Wu), síntese em um único vaso reacional (Op), intensificação de processo (Pi) e autosseparação (Ss) que, de forma geral, envolvem táticas sistêmicas para redução de desperdício, seja em nível laboratorial ou industrial. Nota-se que na visão epistemológica de Anastas e Zimmerman, o conceito de resíduo é estritamente humano, visto que na natureza não há desperdício. Sob esse viés, cada resíduo - tudo o que foi produzido além do produto desejado – precisa ser minimizado ou eliminado, principalmente quando tóxico e perigoso(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "AtomEconomy": {
+        "title": "Economia Atômica",
+        "discretion": "No grupo economia atômica, a relação explícita está com o segundo princípio da Química Verde, no qual, sempre que possível, maximiza-se a incorporação do material de partida nos produtos. Por conseguinte, foram especificados os elementos figurativos: automontagem molecular (Sa), que trata da projeção e criação de estruturas moleculares por auto-organização; processos integrados (Ip), que maximizam o uso eficiente de material e energia; síntese aditiva (As), que trata das reações de adição, cuja máxima incorporação dos átomos de reagentes no produto desejado é verificada; e derivados não-covalentes/transformação de forças fracas (W), que maximizam a conscientização do uso de interações não-covalentes ou fracas na projeção sintética verde. Todos esses elementos combinam projeções verdes visando maior eficiência numa abordagem mais holística(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "LessHazardousSynthesis": {
+        "title": "Síntese Menos Perigosa",
+        "discretion": " O terceiro princípio da Química Verde é exposto no grupo cognominado de síntese menos perigosa, que através dos elementos figurativos: reduzir o uso de materiais nocivos (Ru), geração e consumo in situ de materiais nocivos (Gc), funcionalização da ligação C-H (Ch) e segurança e proteção inerentes (Is) prevê, sempre que possível, a utilização e a geração de substâncias inócuas ou com risco moderado para a saúde humana e o meio ambiente(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022). "
+    },
+    "MolecularDesign": {
+        "title": "Design Molecular",
+        "discretion": "No grupo design molecular, a relação direta é com o quarto princípio da Química Verde, isto é, o desenvolvimento de produtos seguros. A ideia central é a projeção de produtos químicos que além de funcionalmente relevantes sejam prontamente seguros. Assim, listou-se neste grupo os elementos figurativos: diretrizes de design (Dg), que tratam do design intencional em prol de produtos funcionais e benignos; modelos computacionais (Cm), que utilizam a modelagem computacional na prevenção e avaliação de perigo em nível molecular;biodisponibilidade/ ADME – absorção, distribuição, metabolismo, excreção (Ba), que expressa estudos de disposição/performance e de impactos toxicológicos de fármacos num organismo, como por exemplo, na farmacocinética, que inclui análise das etapas de absorção, distribuição, metabolismo e excreção de fármacos; e triagem de alto rendimento – empírico/in vivo/in vitro (Ts), que prevê ensaios biológicos ou bioensaios de alto rendimento para avaliação da toxicidade de produtos químicos(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "Solvents/AuxiliaryChemicals": {
+        "title": "Solventes/ Produtos Químicos Auxiliares",
+        "discretion": "No grupo solventes/produtos químicos auxiliares, os elementos figurativos solventes aquosos e de base biológica (Aq), líquidos iônicos/solventes não voláteis (Il), fluidos sub e supercríticos (Sc) e solventes inteligentes/ajustáveis (S) se relacionam claramente com o quinto princípio da Química Verde. Em virtude da maioria dos solventes apresentarem riscos à segurança humana e ambiental, a proposta desse grupo são solventes alternativos, verdes ou neotéricos (novos), os quais, de forma ideal, devem possuir “alto ponto de ebulição, uma baixa  pressão de vapor, dissolver uma grande gama de compostos orgânicos, ser atóxico, de baixo custo e reciclável(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "Energy": {
+        "title": "Energia",
+        "discretion": " O grupo designado de energia relaciona-se com o sexto princípio da Química Verde, no qual almeja-se a eficiência de energia.Por isso, foram listados os elementos figurativos síntese e processamento eficientes de energia e material (Ee), com métodos preferencialmente à pressão e temperatura ambientes; entradas de energia renovável/sem carbono (R), buscando-se a difusão de energias renováveis, como a solar e a eólica; materiais de armazenamento e transmissão de energia (Es), que exploram a máxima capacidade de armazenamento e transmissão de energia, sem desperdícios; e aproveitamento e valorização de energia residual (V), que atenta-se ao esperdiçamento de energia residual - como elétrica, química ou mecânica - buscando minimizá-lo(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022). "
+    },
+    "RenewableFeedstocks": {
+        "title": "Matérias-primas Renováveis",
+        "discretion": "No grupo matérias-primas renováveis, relacionado diretamente com o sétimo princípio da Química Verde, foram listados os elementos figurativos: biorrefinaria integrada (Ib), dióxido de carbono e outras matérias-primas C1 (C), biologia sintética (Sb) e transformação habilitada biologicamente (Bt). Há a necessidade de alternativas ao uso de combustível fóssil. Nesse contexto, não se pode deixar de mencionar que o Brasil – líder na utilização de matérias-primas renováveis para fins energéticos - apresenta grande potencial estratégico para liderar novas pesquisas na área(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "Catalysis": {
+        "title": "Catálise",
+        "discretion": " Em catálise, que é o nono princípio da Química Verde e o oitavo grupo desse bloco, os elementos figurativos versam sobre a utilização de catalisadores baseados em metais abundantes na terra (Ac), enzimas (E), catálise heterogênea (Ht) e catálise homogênea (Hm). O foco é a preferência por reações catalíticas, cujos catalisadores apresentam baixos riscos para a saúde humana e o ambiente(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "Degradation": {
+        "title": "Degradação",
+        "discretion": "No nono grupo, chamado de degradação, os elementos figurativos são: metabólitos benignos (Bm), estímulos de degradação molecular (Md), polímeros degradáveis e outros materiais (Dp) e ferramentas de previsão e design (Pd), os quais se alinham ao décimo princípio da Química Verde, isto é, o desenvolvimento de compostos degradáveis. Tendo em vista que muitos produtos químicos são persistentes, podendo permanecer nos ambientes por longo tempo, as propostas elencadas nesse grupo se concentram na necessidade de se projetar compostos que após cumprirem a sua função sejam degradados. Além disso, é importante que os produtos de degradação subsequentes sejam inócuos(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "MeasurementandAwareness": {
+        "title": "Medição e Conscientização",
+        "discretion": "Em medição e conscientização, décimo grupo do bloco em tela, é possível observar a relação com os dois últimos princípios da Química Verde – análise em tempo real para a prevenção da poluição e química segura para a prevenção de acidentes. Por conseguinte, os elementos figurativos são: sensores (Sn), que são dispositivos para detecção; controle e otimização em processo (Co), que envolvem análises periódicas do sistema para verificação de eficiência e desempenho, assim como de potenciais acidentes; expossoma (Ex), que se refere a medida cumulativa de todas exposições que um indivíduo está sujeito ao longo de sua vida;42 e química analítica verde (Ga), que, em resposta à química analítica tradicional, envolve o emprego de técnicas e métodos analíticos sem desperdício de tempo, material e energia(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "ConceptualFrameworks": {
+        "title": "Estruturas Conceituais",
+        "discretion": "O grupo estruturas conceituais os seguintes elementos figurativos foram agrupados: biomimética (B), que é o procedimento laboratorial interdisciplinar projetado para imitar um processo químico natural; economia circular (Ce), que ao contrário da economia linear promove o fechamento do ciclo material; benigno por design (Bd), que incorpora a benignidade inerente à performance do sistema; ecologia industrial (Ie), que integra meio ambiente e indústria visando a produção sustentável com a prevenção do ecossistema; design transgeracional (Tg), que desenvolve produtos cujos efeitos deletérios, a curto ou longo prazo, sejam minimizados desde a sua projeção; e economia de base biológica sustentável (Be), que refere-se a utilização da biomassa na produção de produtos de base biológica. Esses elementos figurativos fornecem a base para compreensão da relevância e da relação do sistema em consonância com a sustentabilidade(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "EconomicsandMarketForces": {
+        "title": "Economia e forças de mercado",
+        "discretion": "."
+    },
+    "Metrics": {
+        "title": "Métricas",
+        "discretion": "No grupo métricas foi evocado a metrificação da verdura química, nos quais os elementos economia atômica (Ae), fator ambiental (Ef) e fator função (Ff) representam métricas ou grandezas utilizadas em  Química laboratorial e industrial.41 Entretanto, como cada sistema complexo requer métricas diversas, os elementos nomeados de métricas qualitativas (Ql) e de métricas quantitativas (Qn) trazem a adequada discricionariedade desse grupo ao permitir que outras grandezas de aferição da verdura química possam ser incluídas, sejam elas de caráter quanti ou qualitativo. Por fim, o elemento carga química corporal (Bb) abrange à metrificação de produtos químicos no corpo humano(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "PoliciesandRegulations": {
+        "title": "Políticas e Regulamentos",
+        "discretion": "No grupo políticas e regulamentos foram elencadas ações ou regulamentações que promovam uma química mais consciente e politicamente sustentável. Por exemplo, no elemento transparência química (Ct) sugere-se que sejam divulgados, de forma clara e acessível, todas as substâncias utilizadas na concepção de um produto. Corolariamente, os elementos chamados de responsabilidade estendida do produtor (Pr), regulamentação baseada em propriedade (Pb), leasing químico ou gestão sustentável de produtos químicos (Cl), regulamentos autoaplicáveis (Se) e ecossistema de inovação - tradução do laboratório para o comércio (I) impelem uma maior responsabilidade das atividades químicas(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022). "
+    },
+    "Tools": {
+        "title": "Ferramentas",
+        "discretion": "Em ferramentas, foram listados os elementos figurativos: análise epidemiológica e saúde do ecossistema (Ea), avaliação de alternativas (Aa), análise do ciclo de vida (Lc), seleção de solvente (So), pegada química (Cf) e educação em toxicologia e pensamento sistêmico (Et). Essas ferramentas são multidisciplinares e ajudam na tomada de decisão. Por exemplo, ao incorporar a educação em toxicologia e o pensamento sistêmico nas ciências básicas promovese a conscientização sobre os efeitos nocivos de agentes tóxicos no organismo numa perspectiva sistêmica(Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
+    },
+    "NobleGoals": {
+        "title": "Objetivos Nobres",
+        "discretion": "O bloco denominado de elementos nobres apresenta 7 elementos figurativos em uma linha vertical, a qual representa o grupo dos objetivos nobres (Da Silva Júnior, Jesus, Girotto Júnior. Química Nova, 2022)."
 
+
+    }
+    
+    
 }

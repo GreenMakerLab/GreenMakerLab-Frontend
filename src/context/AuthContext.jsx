@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const token = localStorage.getItem("access_token");
         if (token) setIsAuthenticated(true);
-    }, []);
+    }, []); 
 
     const login = (token) => {
         localStorage.setItem("access_token", token);

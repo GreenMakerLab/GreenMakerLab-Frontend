@@ -1,11 +1,13 @@
 import { TeamList } from "../components/Teamlist";
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 const imageVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, type: "spring", stiffness: 100, damping: 10 } },
   };
-  
-function renderElements(element) {
+
+function RenderElements(element) {
+  const {t}  = useTranslation();
     return (
       <div
         key={element.name}
@@ -26,8 +28,8 @@ function renderElements(element) {
         </motion.div>
         <div className="team-info text-center sm:text-left">
           <h2 className="text-xl font-bold">{element.name}</h2>
-          <p className="text-gray-700 italic mb-2">{element.post}</p>
-          <p className="text-gray-600">{element.description}</p>
+          <p className="text-gray-700 italic mb-2">{t(element.post)}</p>
+          <p className="text-gray-600">{t(element.description)}</p>
           <a
             href={element.curriculum}
             className="inline-block cursor-pointer"
@@ -47,12 +49,13 @@ function renderElements(element) {
   
 
 function Team() {
+  const { t, } = useTranslation();
     return(
         <section className="min-h-screen">
             <div className="p-5 bg-white mx-5 my-3 rounded-lg shadow-lg" >
-                <h2 className="text-3xl font-bold text-center mb-8">Time</h2>
+                <h2 className="text-3xl font-bold text-center mb-8">{t("header.team")}</h2>
                 <div className="flex flex-col gap-8">
-                    {TeamList.map(renderElements)}
+                {TeamList.map(RenderElements)} 
                 </div>
             </div>
         </section>

@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { getArticles } from "../api";
-
+import { useTranslation } from 'react-i18next';
 
 function PublicationsList() {
     const [articles, setArticles] = useState([])
     const [searchTerm, setSearchTerm] = useState("")
     const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768)
+    const { t, i18n } = useTranslation();
 
     useEffect(() => {
         const fetchArticles = async () => {
@@ -53,19 +54,21 @@ function PublicationsList() {
                 <svg  className="inline-flex items-center size-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >
                     <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
-                <input  type="text" id="search-bar" placeholder="Pesquisa..."  
+                <input  type="text" id="search-bar" placeholder={t("publications.Search")}  
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className={` ${ isMobileView  ? 'min-w-28' : 'ml-2 p-2 border rounded-md shadow-sm w-full max-w-md' }  `}/> 
             </div>
             {searchTerm === "" && (
+                 i18n.language === "pt"? 
                 <h3 className="text-xl font-normal mb-4">ARTIGOS PUBLICADOS</h3>
+                :<br/>  
             )}
             <div id="articles-container" className="space-y-8">
                     {filteredArticles.map((article) => (
                         <div key={article.id} className="article p-6 bg-white shadow rounded-md" data-title={article.title}>
                             <h2 className="text-2xl font-serif mb-4">{article.title}</h2>
-                            <p className="font-bold mb-2">Resumo:</p>
+                            <p className="font-bold mb-2">{t("publications.Abstract")}</p>
                         <span>
                             {article.resume}
                             <button
@@ -73,7 +76,7 @@ function PublicationsList() {
                                 onClick={() => toggleShowMore(article.id)}
                                 className="mt-4 text-blue-600 hover:underline"
                             >
-                                Saiba mais
+                               {t("publications.ForMore")}
                             </button>
                             {article.showMore && (
                                 <p  className="mt-2 leading-relaxed">

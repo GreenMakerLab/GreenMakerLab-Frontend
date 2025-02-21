@@ -24,7 +24,7 @@ function Login() {
             } else {
                 setErrorMessage(data.message || "Erro ao fazer login.");
             }
-        } catch (err) {
+        } catch{
             setErrorMessage("Erro ao conectar ao servidor.");
         }
     };
