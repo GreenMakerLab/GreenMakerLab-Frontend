@@ -21,7 +21,8 @@
         "title": "Publicações",
         "Abstract": "Resumo:",
         "Search": "Pesquisar...",
-        "ForMore": "Saiba mais"
+        "ForMore": "Saiba mais",
+        "loading": "carregando..."
     },
     "Carlos": {
         "post": "Líder",

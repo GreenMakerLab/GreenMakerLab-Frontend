@@ -20,7 +20,8 @@
         "title": "Publications",
         "Abstract": "Abstract:",
         "Search": "Search...",
-        "ForMore": "For more"
+        "ForMore": "For more",
+        "loading": "loading..."
     },
     "Carlos": {
         "post": "Leader",
